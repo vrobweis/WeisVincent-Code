@@ -13,3 +13,6 @@ made in 2002 -> .net Framework 1.0
 * dotnet libraries (standard libraries)
 * runtime/Common Language Runtime (CLR)
 
+## Assembly vs Namespace
+* Namespaces logically arrange the types (classes) to avoid naming conflict
+* Assembly is a deployable unit that can be considered a physical separation of types (classes) -> .exe or .dll 
