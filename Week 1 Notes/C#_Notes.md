@@ -3,12 +3,35 @@
 # Day 2
 
 ## Access Modifiers
+* change the behavior and scope of types
+* Scopes
+    * private (default for member types, accessible only by containing class)
+    * protected (accessible by the same class and child classes)
+    * internal (accessible by the same assembly but not by others)
+    * public
+* Properties
+    * Getters and setters (Microsoft calls them smartfields)
+
+## Memory Allocation
+* Stack memory
+    * Faster
+    * Stacked and easily accessed
+* Heap memory
+    * Clusterf pile of data that isn't as easily accessed
+* Value types store directly in the stack, reference types store an address in the stack, and the value in the heap
 
 ## Data Types
+* Value Types
+    * Structs 
+    * Enums
+    * predefined types (int, long, short, byte, DateTime, char)
+* Reference Types
+    * Classes
+    * Interface
+    * Delegates
+    * predefined reference types (string, arrays, collections etc.)
 
 ## Extended Modifiers
-
-## Class, struct, interface, enum
 
 ## Semantic code (DRY, Comments-inline, Comments-XML, KISS)
 
@@ -31,7 +54,11 @@
 
 ## Exception handling (try/catch/finally, throw, custom exceptions)
 
-## Collections
+## Collections (In-memory storage of data)
+* Arrays (1D, 2D, jagged, multidimensional)
+    * Rank of an array is the number of dimensions of an array.
+    * Jagged arrays are arrays where the array has a set number of rows, but the rows can be of differing lengths, like a bar graph shape. It is NOT 2D. In 2D arrays, every row has the same number of columns.
+* Generics (Stack, Queues, List, Dictionary)
 
 # Day 3
 

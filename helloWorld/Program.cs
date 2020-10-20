@@ -10,6 +10,7 @@ namespace helloWorld
         static void Main(string[] args)
         {
 
+            int[][] jaggedArray = new int[3][]; //This makes an array with four rows. Those rows can be of any length, it is not 2D.
             string name;
             string firstname;
             string lastname;
