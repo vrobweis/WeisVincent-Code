@@ -1,11 +1,21 @@
-# Order Model
-
+# Order Models
+### Could be a low-level abstract model, made specific with two more order models for shipping orders and pickup orders
+## Abstract Order Model
 * Order ID (Primary Key)
-* Product being ordered (Foreign Key?)
+* Products being ordered (Line Items) (Foreign Key?)
 * Customer ID (Foreign Key)
-* Shipped order or live pickup?
-* Origin Address
-* Destination Address
+* DBONLY: Shipped order or live pickup?
 * Order Placement time
-* Order Shipment Date
+* Store Location
+* Subtotal
 * ????
+
+## Shipping Order Model
+* Origin Address (This is the Store Location)
+* Order Shipment Date
+* Destination Address
+* Time until shipped?
+
+## Pickup Order Model
+* Store Location
+* Pickup date
