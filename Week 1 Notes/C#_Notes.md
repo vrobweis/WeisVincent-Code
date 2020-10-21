@@ -21,6 +21,7 @@
 * Value types store directly in the stack, reference types store an address in the stack, and the value in the heap
 
 ## Data Types
+* All types in C# are inherited directly or indirectly from System.Object
 * Value Types
     * Structs 
     * Enums
@@ -58,7 +59,11 @@
 * Arrays (1D, 2D, jagged, multidimensional)
     * Rank of an array is the number of dimensions of an array.
     * Jagged arrays are arrays where the array has a set number of rows, but the rows can be of differing lengths, like a bar graph shape. It is NOT 2D. In 2D arrays, every row has the same number of columns.
-* Generics (Stack, Queues, List, Dictionary)
+* Generics
+    * Stack
+    * Queues
+    * List: Dynamic Array
+    * Dictionary
 
 # Day 3
 
