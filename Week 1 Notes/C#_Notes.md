@@ -31,6 +31,7 @@
     * Interface
     * Delegates
     * predefined reference types (string, arrays, collections etc.)
+* Boxing is converting a value type to a reference type, unboxing is the reverse.
 
 ## Extended Modifiers
 
@@ -57,13 +58,23 @@
 
 ## Collections (In-memory storage of data)
 * Arrays (1D, 2D, jagged, multidimensional)
+    * Fixed Size, memory contiguous, elements must have values
     * Rank of an array is the number of dimensions of an array.
     * Jagged arrays are arrays where the array has a set number of rows, but the rows can be of differing lengths, like a bar graph shape. It is NOT 2D. In 2D arrays, every row has the same number of columns.
-* Generics
+* Non-Generics (all items are converted to object form when added to these collections i.e. Boxing)
     * Stack
-    * Queues
-    * List: Dynamic Array
-    * Dictionary
+    * Queue
+    * ArrayList
+    * HashTable (KeyValue)
+* Generics (Avoid the need for boxing by using Arrays internally, which are reference types that store the contents directly, not objects that refer to the data indirectly)
+    * 'Stack<T>': Linear Data Structure LiFo 
+    * 'Queues<T>': Linear Data Structure FiFo
+    * List<T>: Dynamic Array
+    * 'Dictionary<T,T>': Key Value pairs, don't need to iterate to get the data you need
+    * 'SortedList<T>': Array of Key Value pairs sorted by keys.
+* Collections inherit from interfaces that determine functionality
+    * IIterator (iteratability) -> IEnumerable (GetEnumerator func.) -> IEnumerable<T> -> ICollection (Add and Remove func.)
+    * From ICollection we get IList<T> -> List<T>, Stack<T>, Queue<T>, IDictionary<TKey, TValue> -> Dictionary<TKey, TValue>
 
 # Day 3
 

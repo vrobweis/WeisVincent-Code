@@ -19,10 +19,16 @@ namespace SufferShopUI
         static void Main(string[] args)
         {
             customers = GetSampleCustomers();
+            Dictionary<int,string> customerDict = new Dictionary<int,string>();
 
             foreach (var customer in customers)
             {
                 Console.WriteLine($"{customer.ID} {customer.Name}");
+                customerDict.Add(customer.ID,customer.Name);
+            }
+
+            foreach(KeyValuePair<int,string> customerInfo in customerDict) {
+                Console.WriteLine($"{customerInfo.Key} {customerInfo.Value}");
             }
 
         }
