@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace SufferShopLib
 {
@@ -71,7 +72,7 @@ namespace SufferShopLib
 
         public string Email {
             get {
-                return "123@gmail.com";
+                return "123@gmail.com";// TODO: Replace placeholder Email for Customer
             }
             set {
 
@@ -85,7 +86,7 @@ namespace SufferShopLib
             get {
                 return id;
             }
-            set {
+            /*set {
                 int idIterator = value;
                 if (value < 0) {
                     while (idIterator < idIndex) {
@@ -93,7 +94,7 @@ namespace SufferShopLib
                     }
                 }
                 id = idIterator;
-            }
+            }*/
         }
 
         //TODO: Add Orders variable associated with the customer to the model
@@ -101,9 +102,17 @@ namespace SufferShopLib
         string address,city,state,zipCode;//TODO: Add getters and setters for these
         string fullAddress;//TODO: Add getters and setters for this
 
-        string phoneNumber;//TODO: Add getters and setters for this
+        public Stack<string> PhoneNumbers = new Stack<string>();//TODO: Add getters and setters for this
 
-
+        public void AddPhoneNumber(string phoneNumber)
+        {
+            if (phoneNumber != null && phoneNumber != "")
+            {
+                PhoneNumbers.Push(phoneNumber);
+            }
+            else throw new ArgumentException("phoneNumber cannot be null or empty.");
+            
+        }
 
         
 

@@ -20,7 +20,8 @@ The store app is a software that helps customers purchase products from your bus
 * 3 Locations, multiple products
 
  
-## Models:
+## Models: 
+// Should probably be done by the first Saturday night
 * Customer
 * Location
 * Orders
@@ -32,8 +33,8 @@ The store app is a software that helps customers purchase products from your bus
 * Exception Handling
 * Input validation
 * Logging
-* At least 10 unit tests
-* Data should be persisted, (no data should be hard coded)
+* At least 10 unit tests // focus on testing data access and services (Business Logic)
+* Data should be persistent, (no data should be hard coded)
     * Look into serializing your data and storing them on files
 * Code should have xml documentation
 

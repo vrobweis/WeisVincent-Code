@@ -9,7 +9,7 @@ namespace SufferShopUI
     class Program
     {
 
-        readonly SampleMainMenu MainMenu = new SampleMainMenu();
+        
 
         private static readonly NLog.Logger Logger = NLog.LogManager.GetCurrentClassLogger();
 
@@ -42,8 +42,8 @@ namespace SufferShopUI
             customers = GetSampleCustomers();
 
 
-            SampleMainMenu.Start();
-            CustomerSample newCustomer = SampleMainMenu.GetCustomerDetails();
+            SampleCLIMainMenu.Start();
+            CustomerSample newCustomer = SampleCLIMainMenu.GetCustomerDetails();
             System.Console.WriteLine($"New customer entry {newCustomer.Name} was created with the ID {newCustomer.ID}");
 
             customers.Add(newCustomer);

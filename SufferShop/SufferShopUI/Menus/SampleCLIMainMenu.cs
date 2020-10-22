@@ -15,7 +15,7 @@ namespace SufferShopUI.Menus
     /// Publisher: Keisuke Kato
     /// VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=k--kato.docomment
     /// </summary> 
-    public class SampleMainMenu//:IMenu
+    public static class SampleCLIMainMenu//:IMenu
     {
 
         enum UserStartOption
@@ -45,14 +45,15 @@ namespace SufferShopUI.Menus
                 Console.WriteLine($"{option.Key}] {option.Value}");
             }
             
-
-            char userInputStart = Console.ReadKey().KeyChar;
+            
+            string userInputStart = Console.ReadKey().KeyChar.ToString();
             Console.WriteLine("");
-            if (userInputStart.Equals(@"\\d"))
+            if (Regex.IsMatch(userInputStart, @"\\d"))
             {
 
             }
-            
+
+            return 0; // TODO: Remove this placeholder return value in SampleMainMenu.Start()
             // TODO: Validate input at the start for a number representing an option and return that number from this Start() method.
 
 
@@ -101,12 +102,15 @@ namespace SufferShopUI.Menus
 
         }
 
-        void SignUp()
+        public static void SignUp()
         {
             // TODO: Implement Sign Up functionality
+            // 1: Ask for email 
+            // 2: check if email matches with any other customer
+            // 3: ask for password, then name and address
         }
 
-        void Login()
+        public static void Login()
         {
             // TODO: Implement Login functionality for existing users
         }
