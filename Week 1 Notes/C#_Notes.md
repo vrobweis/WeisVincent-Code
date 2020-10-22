@@ -16,13 +16,13 @@
 
 ## Semantic code (DRY, Comments-inline, Comments-XML, KISS)
 
-## Delegates (Action, Event, Function, lambda, LINQ, Predicate)
+
 
 
 
 # Day 4
 
-## Serialization (FileIO, Regular expressions, Serializer-JSON/text/XML)
+
 
 
 
