@@ -2,11 +2,17 @@
 using System.Collections.Generic;
 using SufferShopDB;
 using SufferShopLib;
+using SufferShopUI.Menus;
 
 namespace SufferShopUI
 {
     class Program
     {
+
+        readonly SampleMainMenu MainMenu = new SampleMainMenu();
+
+        private static readonly NLog.Logger Logger = NLog.LogManager.GetCurrentClassLogger();
+
         static List<CustomerSample> customers = new List<CustomerSample>();
         static List<CustomerSample> GetSampleCustomers(){
             List<CustomerSample> sampleList = new List<CustomerSample>();
@@ -16,20 +22,38 @@ namespace SufferShopUI
             return sampleList;
         }
         
-        static void Main(string[] args)
+        static void Main()
         {
+
+
+            if (Logger != null) {Console.WriteLine("yes");}
+            try{
+                Logger.Info("Hello World");
+                Console.WriteLine("oofsies");
+            }
+            catch (Exception ex) {
+                Logger.Error(ex, "Goodbye cruel world");
+                Console.WriteLine("okay");
+            } finally {
+
+            }
+            
+
             customers = GetSampleCustomers();
-            Dictionary<int,string> customerDict = new Dictionary<int,string>();
+
+
+            SampleMainMenu.Start();
+            CustomerSample newCustomer = SampleMainMenu.GetCustomerDetails();
+            System.Console.WriteLine($"New customer entry {newCustomer.Name} was created with the ID {newCustomer.ID}");
+
+            customers.Add(newCustomer);
+
 
             foreach (var customer in customers)
             {
                 Console.WriteLine($"{customer.ID} {customer.Name}");
-                customerDict.Add(customer.ID,customer.Name);
             }
 
-            foreach(KeyValuePair<int,string> customerInfo in customerDict) {
-                Console.WriteLine($"{customerInfo.Key} {customerInfo.Value}");
-            }
 
         }
         

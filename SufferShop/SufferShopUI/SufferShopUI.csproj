@@ -5,6 +5,10 @@
     <ProjectReference Include="..\SufferShopDB\SufferShopDB.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="NLog" Version="4.7.5" />
+  </ItemGroup>
+
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
