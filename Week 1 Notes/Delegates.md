@@ -4,7 +4,15 @@ A Delegate is a type that represents a reference to a method with a defined para
 * Allows for: 
     * method chaining, which create a pipeline and lifecycle of a framework
     * anonymous Methods which are the foundation of Lambda ep.
-    * Events
+    * Events: publisher and subscriber model/pattern
+        * Events enable classes or objects to notify other classes and objects when something of interest occurs. The class that sends or **raises** the event is called the **publisher** and the classes that receive or **handle** the event are called **subscribers**.
+        * Events are special kinds of multicast delegates that can only be invoked within the class or struct where they are declared (the publisher class). If other classes or structs subscribe to the event, their event handler methods will be called when the publisher class raises the event.
+        * To register for and trigger an event:
+            1. the recipient creates a method designed to handle the event
+            2. the recipient then creates a delegate for that method
+            3. passes the delegate to the event source
+            4. the source calls the delegate when the event occurs
+            5. the delegate then calls the event handling method on the recipient, delivering the event data. The delegate type for a given event is defined by the event source. 
     * Loose coupling
 * Type of Delegates
     * Single-cast
@@ -12,7 +20,7 @@ A Delegate is a type that represents a reference to a method with a defined para
     * Strongly-Typed Delegates
 * Premade delegates:
     * Action
-    * ?
+    * Predicate
 * A delegate's ability to refer to methods as a parameter makes them ideal for defining callback methods.
 * Any accessible method or struct that matches the delegate type and return type can be assigned to the delegate. Delegates are object oriented, type safe, and secure.
 

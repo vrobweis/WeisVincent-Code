@@ -1,4 +1,4 @@
-# Variance
+# Variance (As, Boxing, Casting, Contravariant, Covariant, Invariant, Is, Out, Ref, Typeof)
 ## Type Variance
 * Describes the type that may be substituted in place of another type
 * Covariance: A substitution is covariant with a type, Foo, if Foo or any other class with a subclass relationship to Foo is valid
