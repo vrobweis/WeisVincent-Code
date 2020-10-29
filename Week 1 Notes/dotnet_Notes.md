@@ -23,5 +23,5 @@ made in 2002 -> .net Framework 1.0
 * HelloWorld is a 1-tier App, because it has one layer.
 * N-tier Apps are most new business apps which have multiple servers to deal with different layers and different connections between non-adjacent layers. These individual projects in one big business solution are called microservices. (Think Adobe Creative Suite. spiderweb bulls-)
 * .NET Solutions are used to group multiple projects together (Think MVC or modules, compartmentalizing smaller parts of the big business solution) 
-    * {mkdir <solution name>; cd <solution name>; dotnet new sln}
+    * {mkdir &lt;solution name>; cd &lt;solution name>; dotnet new sln}
     * UI: Console/UI project, BL: Class Library project, DB: Class Library project

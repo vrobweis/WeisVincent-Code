@@ -24,7 +24,6 @@
 * Literally means "many forms".
 * When you present the same interface but the inputs/data types used are going to differ.
 * Ability to substitute different implementation details for different needs
-* Ability of an object to take on many forms
 * Implementations
     * Ad Hoc
         * defines a common interface for an arbitrary set of individually specified types
@@ -52,6 +51,7 @@
         * A computer uses a keyboard, but they exist separately from each other. Two Customers might be married, and that may affect part of your business logic, but mostly they are separate.
 
 ### Encapsulation
+* Data hiding and Wrapping
 * Treat related data/behavior as a single unit/piece.
 * The validation and any processsing of the data in your data classes would be done in the class itself.
 * Implemented via data hiding (using access modifiers) and wrapping (grouping logic in classes, assemblies, and namespaces).
