@@ -11,7 +11,6 @@
 * Models: That contains structure of data, data validation, and data business logic such as constraints on databases.
 * Views: UI Logic
 * Controllers: The component which handles users requests
-    
 
 ### .Net Core -> Asp.Net Core
 * You can create either:
@@ -24,7 +23,10 @@
 * **Hosts**
     * IIS (Microsoft's server, Windows only)
     * Kestrel (Platform independent server)
-    * HTTPS
+    * HTTPS.sys
+    * Nginx
+    * Apache
+    * Docker
 
 ## ASP.Net MVC
 ### Controllers
@@ -64,7 +66,7 @@
 * Supports C# and HTML
 * C# code is accessed with @ tag for one line code
 * `
-@{   
+@{
     multiple lines of C# code 
 }
 `
@@ -73,4 +75,40 @@
     * Strongly-Typed
     * Dynamic-Typed
     * Layout View: Implements principle called DRY (Donot Repeat Yourself)
-    * Partial Views (think more child views of a parent view, not so much partial class in C#)
+    * Partial Views (think more child views of a parent view, not so much partial class in C#): 
+        * These allow us to break up component parts of a page. 
+        * In Razor Pages, markup files are called pages, but in MVC apps, markup files are called views
+
+### Model Binding
+* A mechanism that's part of ASP.Net Core that allows the values of parameters action methods to be binded to a from different locations of that data:
+    * RouteData
+    * FormCollection
+    * QueryString
+    * File
+
+## Routing
+* Mechanism to implement powerful and meaningful URLs and its mapping
+* Performed by Routing Engine
+    * The engine has a route table that maintains the repository of the patters, controller, actions, and each action's parameters.
+* Because of routing, link generation is independent of the file structure.
+* Routing can be done in two ways
+    * Conventional based way: globally defining routes (try looking at startup.cs)
+    * Attribute based routing
+
+## Lifetime of the context
+* There are built in Inversion of Control(IoC, think Dependency Inversion Principle) containers that manage the lifetime of a registered service (Like the DbContext)
+    * Singleton - service will be available throughout the lifetime of the application, single instance.
+    * Transient - It will create a new instance of the specified service type everytime you ask for it.
+    * Scoped - it will create the instance of the specified service type once per request and will be shared in a single request.
+
+## Helpers in MVC Views
+* 2 Types of helpers which can be used to generate HTML at runtime by the Razor Engine
+    * HTML Helpers: C# methods which create the HTML at runtime
+    * Tag Helpers: more like mark ups and HTML friendly syntaxes, like attributes
+
+## Validations
+* To check the user's input client side as well as Server side, we use validations
+* Data annotations: Can be used to:
+    * perform client side validations using annotations like StringLength/Range, RegularExpression, Required
+    * Display Views: Datatype, Display Name
+    * Mention schema logic: Key, Foreign Key, Required
