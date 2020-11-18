@@ -1,0 +1,11 @@
+## Data Types in UiPath Studio
+- String
+- Boolean
+- Number
+- Date and Time
+- DataTable
+- GenericValue (UiPath specific)
+    - Any data type
+- QueueItem (UiPath specific)
+    - an iten extracted from a Queue (Like a particular invoice in a queue of invoices)
+- Array
