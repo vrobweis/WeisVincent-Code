@@ -2,6 +2,31 @@
   "Packages": [
     {
       "Package": {
+        "Id": "NETStandard.Library",
+        "Version": "1.6.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\vrobw\\.nuget\\packages\\microsoft.win32.primitives/4.3.0\\lib/net46/Microsoft.Win32.Primitives.dll",
+        "C:\\Users\\vrobw\\.nuget\\packages\\system.appcontext/4.3.0\\lib/net46/System.AppContext.dll",
+        "C:\\Users\\vrobw\\.nuget\\packages\\system.console/4.3.0\\lib/net46/System.Console.dll",
+        "C:\\Users\\vrobw\\.nuget\\packages\\system.diagnostics.diagnosticsource/4.3.0\\lib/net46/System.Diagnostics.DiagnosticSource.dll",
+        "C:\\Users\\vrobw\\.nuget\\packages\\system.globalization.calendars/4.3.0\\lib/net46/System.Globalization.Calendars.dll",
+        "C:\\Users\\vrobw\\.nuget\\packages\\system.io.compression/4.3.0\\lib/net46/System.IO.Compression.dll",
+        "C:\\Users\\vrobw\\.nuget\\packages\\system.io.compression.zipfile/4.3.0\\lib/net46/System.IO.Compression.ZipFile.dll",
+        "C:\\Users\\vrobw\\.nuget\\packages\\system.io.filesystem/4.3.0\\lib/net46/System.IO.FileSystem.dll",
+        "C:\\Users\\vrobw\\.nuget\\packages\\system.io.filesystem.primitives/4.3.0\\lib/net46/System.IO.FileSystem.Primitives.dll",
+        "C:\\Users\\vrobw\\.nuget\\packages\\system.net.http/4.3.0\\lib/net46/System.Net.Http.dll",
+        "C:\\Users\\vrobw\\.nuget\\packages\\system.net.sockets/4.3.0\\lib/net46/System.Net.Sockets.dll",
+        "C:\\Users\\vrobw\\.nuget\\packages\\system.runtime.interopservices.runtimeinformation/4.3.0\\lib/net45/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "C:\\Users\\vrobw\\.nuget\\packages\\system.security.cryptography.algorithms/4.3.0\\lib/net461/System.Security.Cryptography.Algorithms.dll",
+        "C:\\Users\\vrobw\\.nuget\\packages\\system.security.cryptography.encoding/4.3.0\\lib/net46/System.Security.Cryptography.Encoding.dll",
+        "C:\\Users\\vrobw\\.nuget\\packages\\system.security.cryptography.primitives/4.3.0\\lib/net46/System.Security.Cryptography.Primitives.dll",
+        "C:\\Users\\vrobw\\.nuget\\packages\\system.security.cryptography.x509certificates/4.3.0\\lib/net461/System.Security.Cryptography.X509Certificates.dll",
+        "C:\\Users\\vrobw\\.nuget\\packages\\system.xml.readerwriter/4.3.0\\lib/net46/System.Xml.ReaderWriter.dll"
+      ]
+    },
+    {
+      "Package": {
         "Id": "UiPath.Excel.Activities",
         "Version": "2.7.2"
       },
@@ -18,6 +43,33 @@
         "C:\\Users\\vrobw\\.nuget\\packages\\uipath.excel.activities/2.7.2\\lib/net461/UiPath.Excel.Activities.Design.dll",
         "C:\\Users\\vrobw\\.nuget\\packages\\uipath.excel.activities/2.7.2\\lib/net461/UiPath.Excel.Activities.dll",
         "C:\\Users\\vrobw\\.nuget\\packages\\uipath.excel.activities/2.7.2\\lib/net461/UiPath.Excel.dll"
+      ]
+    },
+    {
+      "Package": {
+        "Id": "UiPath.GSuite.Activities",
+        "Version": "1.8.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\vrobw\\.nuget\\packages\\bouncycastle/1.8.5\\lib/BouncyCastle.Crypto.dll",
+        "C:\\Users\\vrobw\\.nuget\\packages\\google.apis/1.43.0\\lib/net45/Google.Apis.PlatformServices.dll",
+        "C:\\Users\\vrobw\\.nuget\\packages\\google.apis/1.43.0\\lib/net45/Google.Apis.dll",
+        "C:\\Users\\vrobw\\.nuget\\packages\\google.apis.auth/1.43.0\\lib/net45/Google.Apis.Auth.PlatformServices.dll",
+        "C:\\Users\\vrobw\\.nuget\\packages\\google.apis.auth/1.43.0\\lib/net45/Google.Apis.Auth.dll",
+        "C:\\Users\\vrobw\\.nuget\\packages\\google.apis.calendar.v3/1.43.0.1872\\lib/net45/Google.Apis.Calendar.v3.dll",
+        "C:\\Users\\vrobw\\.nuget\\packages\\google.apis.core/1.43.0\\lib/net45/Google.Apis.Core.dll",
+        "C:\\Users\\vrobw\\.nuget\\packages\\google.apis.docs.v1/1.43.0.1869\\lib/net45/Google.Apis.Docs.v1.dll",
+        "C:\\Users\\vrobw\\.nuget\\packages\\google.apis.drive.v3/1.43.0.1863\\lib/net45/Google.Apis.Drive.v3.dll",
+        "C:\\Users\\vrobw\\.nuget\\packages\\google.apis.gmail.v1/1.43.0.1859\\lib/net45/Google.Apis.Gmail.v1.dll",
+        "C:\\Users\\vrobw\\.nuget\\packages\\google.apis.script.v1/1.43.0.1871\\lib/net45/Google.Apis.Script.v1.dll",
+        "C:\\Users\\vrobw\\.nuget\\packages\\google.apis.sheets.v4/1.43.0.1867\\lib/net45/Google.Apis.Sheets.v4.dll",
+        "C:\\Users\\vrobw\\.nuget\\packages\\mimekit/2.5.1\\lib/net46/MimeKit.dll",
+        "C:\\Users\\vrobw\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\vrobw\\.nuget\\packages\\nodatime/2.4.7\\lib/net45/NodaTime.dll",
+        "C:\\Users\\vrobw\\.nuget\\packages\\uipath.gsuite.activities/1.8.0\\lib/net461/UiPath.GSuite.Activities.Design.dll",
+        "C:\\Users\\vrobw\\.nuget\\packages\\uipath.gsuite.activities/1.8.0\\lib/net461/UiPath.GSuite.Activities.dll",
+        "C:\\Users\\vrobw\\.nuget\\packages\\uipath.gsuite.activities/1.8.0\\lib/net461/UiPath.GSuite.dll",
+        "C:\\Users\\vrobw\\.nuget\\packages\\uipath.gsuite.activities/1.8.0\\lib/net461/UiPath.Orchestrator.dll"
       ]
     },
     {
@@ -107,29 +159,11 @@
     },
     {
       "Package": {
-        "Id": "UiPath.GSuite.Activities",
-        "Version": "1.8.0"
+        "Id": "VWValidationFramework",
+        "Version": "0.4.1"
       },
       "Assemblies": [
-        "C:\\Users\\vrobw\\.nuget\\packages\\bouncycastle/1.8.5\\lib/BouncyCastle.Crypto.dll",
-        "C:\\Users\\vrobw\\.nuget\\packages\\google.apis/1.43.0\\lib/net45/Google.Apis.dll",
-        "C:\\Users\\vrobw\\.nuget\\packages\\google.apis/1.43.0\\lib/net45/Google.Apis.PlatformServices.dll",
-        "C:\\Users\\vrobw\\.nuget\\packages\\google.apis.auth/1.43.0\\lib/net45/Google.Apis.Auth.dll",
-        "C:\\Users\\vrobw\\.nuget\\packages\\google.apis.auth/1.43.0\\lib/net45/Google.Apis.Auth.PlatformServices.dll",
-        "C:\\Users\\vrobw\\.nuget\\packages\\google.apis.calendar.v3/1.43.0.1872\\lib/net45/Google.Apis.Calendar.v3.dll",
-        "C:\\Users\\vrobw\\.nuget\\packages\\google.apis.core/1.43.0\\lib/net45/Google.Apis.Core.dll",
-        "C:\\Users\\vrobw\\.nuget\\packages\\google.apis.docs.v1/1.43.0.1869\\lib/net45/Google.Apis.Docs.v1.dll",
-        "C:\\Users\\vrobw\\.nuget\\packages\\google.apis.drive.v3/1.43.0.1863\\lib/net45/Google.Apis.Drive.v3.dll",
-        "C:\\Users\\vrobw\\.nuget\\packages\\google.apis.gmail.v1/1.43.0.1859\\lib/net45/Google.Apis.Gmail.v1.dll",
-        "C:\\Users\\vrobw\\.nuget\\packages\\google.apis.script.v1/1.43.0.1871\\lib/net45/Google.Apis.Script.v1.dll",
-        "C:\\Users\\vrobw\\.nuget\\packages\\google.apis.sheets.v4/1.43.0.1867\\lib/net45/Google.Apis.Sheets.v4.dll",
-        "C:\\Users\\vrobw\\.nuget\\packages\\mimekit/2.5.1\\lib/net46/MimeKit.dll",
-        "C:\\Users\\vrobw\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
-        "C:\\Users\\vrobw\\.nuget\\packages\\nodatime/2.4.7\\lib/net45/NodaTime.dll",
-        "C:\\Users\\vrobw\\.nuget\\packages\\uipath.gsuite.activities/1.8.0\\lib/net461/UiPath.GSuite.Activities.Design.dll",
-        "C:\\Users\\vrobw\\.nuget\\packages\\uipath.gsuite.activities/1.8.0\\lib/net461/UiPath.GSuite.Activities.dll",
-        "C:\\Users\\vrobw\\.nuget\\packages\\uipath.gsuite.activities/1.8.0\\lib/net461/UiPath.GSuite.dll",
-        "C:\\Users\\vrobw\\.nuget\\packages\\uipath.gsuite.activities/1.8.0\\lib/net461/UiPath.Orchestrator.dll"
+        "C:\\Users\\vrobw\\.nuget\\packages\\vwvalidationframework/0.4.1\\lib/net461/VWValidationFramework.dll"
       ]
     }
   ],
@@ -331,6 +365,11 @@
       "Version": "2.2.0",
       "Dependencies": []
     },
+    "Microsoft.NETCore.Platforms": {
+      "Id": "Microsoft.NETCore.Platforms",
+      "Version": "1.1.0",
+      "Dependencies": []
+    },
     "Microsoft.Rest.ClientRuntime": {
       "Id": "Microsoft.Rest.ClientRuntime",
       "Version": "2.3.20",
@@ -346,6 +385,11 @@
       "Version": "7.10.6071",
       "Dependencies": []
     },
+    "Microsoft.Win32.Primitives": {
+      "Id": "Microsoft.Win32.Primitives",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
     "MimeKit": {
       "Id": "MimeKit",
       "Version": "2.5.1",
@@ -353,6 +397,188 @@
         {
           "Item1": "BouncyCastle",
           "Item2": "[1.8.5, )"
+        }
+      ]
+    },
+    "NETStandard.Library": {
+      "Id": "NETStandard.Library",
+      "Version": "1.6.1",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.NETCore.Platforms",
+          "Item2": "[1.1.0, )"
+        },
+        {
+          "Item1": "Microsoft.Win32.Primitives",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.AppContext",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Collections",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Collections.Concurrent",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Console",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Diagnostics.Debug",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Diagnostics.Tools",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Diagnostics.Tracing",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Globalization",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Globalization.Calendars",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.IO",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.IO.Compression",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.IO.Compression.ZipFile",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.IO.FileSystem",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.IO.FileSystem.Primitives",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Linq",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Linq.Expressions",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Net.Http",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Net.Primitives",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Net.Sockets",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.ObjectModel",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Reflection",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Reflection.Extensions",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Reflection.Primitives",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Resources.ResourceManager",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Runtime",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Runtime.Extensions",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Runtime.Handles",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Runtime.InteropServices",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Runtime.InteropServices.RuntimeInformation",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Runtime.Numerics",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Security.Cryptography.Algorithms",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Security.Cryptography.Encoding",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Security.Cryptography.Primitives",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Security.Cryptography.X509Certificates",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Text.Encoding",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Text.Encoding.Extensions",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Text.RegularExpressions",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Threading",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Threading.Tasks",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Threading.Timer",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Xml.ReaderWriter",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Xml.XDocument",
+          "Item2": "[4.3.0, )"
         }
       ]
     },
@@ -381,9 +607,252 @@
       "Version": "1.0.0",
       "Dependencies": []
     },
+    "System.AppContext": {
+      "Id": "System.AppContext",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Collections": {
+      "Id": "System.Collections",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Collections.Concurrent": {
+      "Id": "System.Collections.Concurrent",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Console": {
+      "Id": "System.Console",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Diagnostics.Debug": {
+      "Id": "System.Diagnostics.Debug",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Diagnostics.DiagnosticSource": {
+      "Id": "System.Diagnostics.DiagnosticSource",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Diagnostics.Tools": {
+      "Id": "System.Diagnostics.Tools",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Diagnostics.Tracing": {
+      "Id": "System.Diagnostics.Tracing",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Globalization": {
+      "Id": "System.Globalization",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Globalization.Calendars": {
+      "Id": "System.Globalization.Calendars",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.IO": {
+      "Id": "System.IO",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.IO.Compression": {
+      "Id": "System.IO.Compression",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.IO.Compression.ZipFile": {
+      "Id": "System.IO.Compression.ZipFile",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.IO.FileSystem": {
+      "Id": "System.IO.FileSystem",
+      "Version": "4.3.0",
+      "Dependencies": [
+        {
+          "Item1": "System.IO.FileSystem.Primitives",
+          "Item2": "[4.3.0, )"
+        }
+      ]
+    },
+    "System.IO.FileSystem.Primitives": {
+      "Id": "System.IO.FileSystem.Primitives",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Linq": {
+      "Id": "System.Linq",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Linq.Expressions": {
+      "Id": "System.Linq.Expressions",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Net.Http": {
+      "Id": "System.Net.Http",
+      "Version": "4.3.0",
+      "Dependencies": [
+        {
+          "Item1": "System.Diagnostics.DiagnosticSource",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Security.Cryptography.X509Certificates",
+          "Item2": "[4.3.0, )"
+        }
+      ]
+    },
+    "System.Net.Primitives": {
+      "Id": "System.Net.Primitives",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Net.Sockets": {
+      "Id": "System.Net.Sockets",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.ObjectModel": {
+      "Id": "System.ObjectModel",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Reflection": {
+      "Id": "System.Reflection",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Reflection.Extensions": {
+      "Id": "System.Reflection.Extensions",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Reflection.Primitives": {
+      "Id": "System.Reflection.Primitives",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Resources.ResourceManager": {
+      "Id": "System.Resources.ResourceManager",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Runtime": {
+      "Id": "System.Runtime",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Runtime.Extensions": {
+      "Id": "System.Runtime.Extensions",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Runtime.Handles": {
+      "Id": "System.Runtime.Handles",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Runtime.InteropServices": {
+      "Id": "System.Runtime.InteropServices",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Runtime.InteropServices.RuntimeInformation": {
+      "Id": "System.Runtime.InteropServices.RuntimeInformation",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Runtime.Numerics": {
+      "Id": "System.Runtime.Numerics",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Security.Cryptography.Algorithms": {
+      "Id": "System.Security.Cryptography.Algorithms",
+      "Version": "4.3.0",
+      "Dependencies": [
+        {
+          "Item1": "System.Security.Cryptography.Primitives",
+          "Item2": "[4.3.0, )"
+        }
+      ]
+    },
+    "System.Security.Cryptography.Encoding": {
+      "Id": "System.Security.Cryptography.Encoding",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Security.Cryptography.Primitives": {
+      "Id": "System.Security.Cryptography.Primitives",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Security.Cryptography.X509Certificates": {
+      "Id": "System.Security.Cryptography.X509Certificates",
+      "Version": "4.3.0",
+      "Dependencies": [
+        {
+          "Item1": "System.Security.Cryptography.Algorithms",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Security.Cryptography.Encoding",
+          "Item2": "[4.3.0, )"
+        }
+      ]
+    },
+    "System.Text.Encoding": {
+      "Id": "System.Text.Encoding",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Text.Encoding.Extensions": {
+      "Id": "System.Text.Encoding.Extensions",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Text.RegularExpressions": {
+      "Id": "System.Text.RegularExpressions",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Threading": {
+      "Id": "System.Threading",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Threading.Tasks": {
+      "Id": "System.Threading.Tasks",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Threading.Timer": {
+      "Id": "System.Threading.Timer",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
     "System.ValueTuple": {
       "Id": "System.ValueTuple",
       "Version": "4.5.0",
+      "Dependencies": []
+    },
+    "System.Xml.ReaderWriter": {
+      "Id": "System.Xml.ReaderWriter",
+      "Version": "4.3.0",
+      "Dependencies": []
+    },
+    "System.Xml.XDocument": {
+      "Id": "System.Xml.XDocument",
+      "Version": "4.3.0",
       "Dependencies": []
     },
     "UiPath": {
@@ -559,6 +1028,11 @@
           "Item2": "[2.2.1, )"
         }
       ]
+    },
+    "VWValidationFramework": {
+      "Id": "VWValidationFramework",
+      "Version": "0.4.1",
+      "Dependencies": []
     }
   }
 }

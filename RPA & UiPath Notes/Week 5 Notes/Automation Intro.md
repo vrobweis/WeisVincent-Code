@@ -30,3 +30,12 @@ The technology that enables a software program to mimic human actions while inte
     - Document understanding
     - Visual understanding
     - Conversational understanding
+
+## RPA Implementation projects
+1. Prepare RPA
+2. Solution Design
+3. Build RPA
+4. Test RPA
+5. Stabilize RPA
+6. Constant Improvement
+

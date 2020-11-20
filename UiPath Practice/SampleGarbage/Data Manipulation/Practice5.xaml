@@ -1,0 +1,160 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Practice5" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="653.6,736.8" sap2010:WorkflowViewState.IdRef="Practice5_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>VWValidation</x:String>
+      <x:String>VWValidation.Conditions</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>UiPath.GSuite.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>VWValidation</AssemblyReference>
+      <AssemblyReference>VWValidationFramework</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Flowchart DisplayName="Practice5" sap:VirtualizedContainerService.HintSize="633.6,636.8" sap2010:WorkflowViewState.IdRef="Flowchart_1">
+    <Flowchart.Variables>
+      <Variable x:TypeArguments="x:String" Name="UserNameInput" />
+      <Variable x:TypeArguments="x:Boolean" Default="[InputIsValidated]" Name="InputIsValidated" />
+      <Variable x:TypeArguments="x:Int32" Default="3" Name="ValidationFailCount" />
+      <Variable x:TypeArguments="x:Boolean" Default="False" Name="IsAtFailMaximum" />
+    </Flowchart.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <av:Point x:Key="ShapeLocation">270,2.5</av:Point>
+        <av:Size x:Key="ShapeSize">60,75.2</av:Size>
+        <av:PointCollection x:Key="ConnectorLocation">300,77.7 300,95.6</av:PointCollection>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Flowchart.StartNode>
+      <x:Reference>__ReferenceID1</x:Reference>
+    </Flowchart.StartNode>
+    <FlowDecision x:Name="__ReferenceID0" Condition="[InputIsValidated]" DisplayName="Is Input Validated?" sap:VirtualizedContainerService.HintSize="103.2,87.2" sap2010:WorkflowViewState.IdRef="FlowDecision_1">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <av:Point x:Key="ShapeLocation">248.4,196.4</av:Point>
+          <av:Size x:Key="ShapeSize">103.2,87.2</av:Size>
+          <av:PointCollection x:Key="FalseConnector">351.6,240 400,240</av:PointCollection>
+          <x:String x:Key="FalseLabel">no</x:String>
+          <x:String x:Key="TrueLabel">yes</x:String>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <FlowDecision.False>
+        <FlowStep x:Name="__ReferenceID2">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <av:Point x:Key="ShapeLocation">400,205.6</av:Point>
+              <av:Size x:Key="ShapeSize">200,68.8</av:Size>
+              <av:PointCollection x:Key="ConnectorLocation">500,205.6 500,130 400,130</av:PointCollection>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <Sequence DisplayName="Respond to fail and retry" sap:VirtualizedContainerService.HintSize="200,68.8" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Assign sap:VirtualizedContainerService.HintSize="483.2,60" sap2010:WorkflowViewState.IdRef="Assign_2">
+              <Assign.To>
+                <OutArgument x:TypeArguments="x:Int32">[ValidationFailCount]</OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:Int32">[ValidationFailCount - 1]</InArgument>
+              </Assign.Value>
+            </Assign>
+            <If Condition="[ValidationFailCount &lt;= 0]" sap:VirtualizedContainerService.HintSize="483.2,209.6" sap2010:WorkflowViewState.IdRef="If_1">
+              <If.Then>
+                <Assign sap:VirtualizedContainerService.HintSize="262.4,60" sap2010:WorkflowViewState.IdRef="Assign_3">
+                  <Assign.To>
+                    <OutArgument x:TypeArguments="x:Boolean">[IsAtFailMaximum]</OutArgument>
+                  </Assign.To>
+                  <Assign.Value>
+                    <InArgument x:TypeArguments="x:Boolean">True</InArgument>
+                  </Assign.Value>
+                </Assign>
+              </If.Then>
+            </If>
+            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="483.2,60" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Your input was not validated. Retry. &quot;+ ValidationFailCount.ToString() + &quot; more attempts.&quot;]" />
+          </Sequence>
+          <FlowStep.Next>
+            <FlowStep x:Name="__ReferenceID1">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <av:Point x:Key="ShapeLocation">200,95.6</av:Point>
+                  <av:Size x:Key="ShapeSize">200,68.8</av:Size>
+                  <av:PointCollection x:Key="ConnectorLocation">300,164.4 300,196.4</av:PointCollection>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <Sequence DisplayName="Take &amp; Validate Input" sap:VirtualizedContainerService.HintSize="200,68.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ui:InputDialog Options="{x:Null}" DisplayName="Input Name" sap:VirtualizedContainerService.HintSize="333.6,92.8" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="Enter your name." Title="Name Input">
+                  <ui:InputDialog.Result>
+                    <OutArgument x:TypeArguments="x:String">[UserNameInput]</OutArgument>
+                  </ui:InputDialog.Result>
+                </ui:InputDialog>
+                <Assign sap:VirtualizedContainerService.HintSize="333.6,60" sap2010:WorkflowViewState.IdRef="Assign_1">
+                  <Assign.To>
+                    <OutArgument x:TypeArguments="x:Boolean">[InputIsValidated]</OutArgument>
+                  </Assign.To>
+                  <Assign.Value>
+                    <InArgument x:TypeArguments="x:Boolean">[new VWValidation.InputValidator(VWValidation.Conditions.InputConditions.NameConditions).ValidateInput(UserNameInput)]</InArgument>
+                  </Assign.Value>
+                </Assign>
+              </Sequence>
+              <FlowStep.Next>
+                <x:Reference>__ReferenceID0</x:Reference>
+              </FlowStep.Next>
+            </FlowStep>
+          </FlowStep.Next>
+        </FlowStep>
+      </FlowDecision.False>
+    </FlowDecision>
+    <x:Reference>__ReferenceID1</x:Reference>
+    <x:Reference>__ReferenceID2</x:Reference>
+  </Flowchart>
+</Activity>
