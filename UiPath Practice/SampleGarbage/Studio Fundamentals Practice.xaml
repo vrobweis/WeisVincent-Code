@@ -61,7 +61,7 @@
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <Flowchart.StartNode>
-      <x:Reference>__ReferenceID10</x:Reference>
+      <x:Reference>__ReferenceID11</x:Reference>
     </Flowchart.StartNode>
     <FlowSwitch x:TypeArguments="x:Int32" x:Name="__ReferenceID1" sap2010:Annotation.AnnotationText="This flow switch checks the selectedChoice variable that was set by the SelectPracticeOption sequence called previously. Look for an Activity Selection workflow in the various folders, that's where I've put the activities." DisplayName="Flow Switch" Expression="[selectedChoice]" sap:VirtualizedContainerService.HintSize="70.4,87.2" sap2010:WorkflowViewState.IdRef="FlowSwitch`1_1">
       <FlowSwitch.Default>
@@ -99,6 +99,7 @@
           <av:PointCollection x:Key="7Connector">317.6,413.6 317.6,500 400,500</av:PointCollection>
           <av:PointCollection x:Key="8Connector">335.2,391.8 365.2,391.8 365.2,420 400,420</av:PointCollection>
           <av:PointCollection x:Key="9Connector">335.2,370 365.2,370 365.2,340 400,340</av:PointCollection>
+          <av:PointCollection x:Key="10Connector">335.2,348.2 365.2,348.2 365.2,250 390,250</av:PointCollection>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <FlowStep x:Key="1" x:Name="__ReferenceID0">
@@ -245,9 +246,27 @@
           </sap:WorkflowViewStateService.ViewState>
         </ui:InvokeWorkflowFile>
       </FlowStep>
+      <FlowStep x:Key="10" x:Name="__ReferenceID10">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">390,223.6</av:Point>
+            <av:Size x:Key="ShapeSize">200,52.8</av:Size>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+        <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Orchestrator Practice 7 " sap:VirtualizedContainerService.HintSize="200,52.8" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_11" UnSafe="False" WorkflowFileName="Orchestrator\Practice 7.xaml">
+          <ui:InvokeWorkflowFile.Arguments>
+            <scg:Dictionary x:TypeArguments="x:String, Argument" />
+          </ui:InvokeWorkflowFile.Arguments>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </ui:InvokeWorkflowFile>
+      </FlowStep>
     </FlowSwitch>
     <x:Reference>__ReferenceID0</x:Reference>
-    <FlowStep x:Name="__ReferenceID10">
+    <FlowStep x:Name="__ReferenceID11">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <av:Point x:Key="ShapeLocation">200,93.6</av:Point>
@@ -280,5 +299,6 @@
     <x:Reference>__ReferenceID7</x:Reference>
     <x:Reference>__ReferenceID8</x:Reference>
     <x:Reference>__ReferenceID9</x:Reference>
+    <x:Reference>__ReferenceID10</x:Reference>
   </Flowchart>
 </Activity>
