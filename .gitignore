@@ -13,6 +13,7 @@
 *.user
 *.userosscache
 *.sln.docstates
+*.local/
 credential.txt
 
 # User-specific files (MonoDevelop/Xamarin Studio)
